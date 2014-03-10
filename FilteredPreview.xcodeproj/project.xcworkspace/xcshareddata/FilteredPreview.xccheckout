@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7C2E1B3B-0C61-4697-A646-EE772055480F</string>
+	<string>F0926400-A34A-45FE-91B0-5B2FE7BA9C92</string>
 	<key>IDESourceControlProjectName</key>
 	<string>FilteredPreview</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>0BE4840B-8876-4A27-97C2-D1B30B4F69DC</key>
+		<string>https://github.com/ErikJefferson/FilteredPreview</string>
 		<key>23D6CFC5-5154-4AE3-ADF2-D8C473631B1D</key>
 		<string>ssh://bitbucket.org/ErikJefferson/iosdev.git</string>
 		<key>9195CC56-791B-41AE-876B-0D3FE58F5B2E</key>
@@ -19,13 +21,15 @@
 	<string>Tutorial/FilteredPreview/FilteredPreview.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>0BE4840B-8876-4A27-97C2-D1B30B4F69DC</key>
+		<string>../..</string>
 		<key>23D6CFC5-5154-4AE3-ADF2-D8C473631B1D</key>
 		<string>../../../..</string>
 		<key>9195CC56-791B-41AE-876B-0D3FE58F5B2E</key>
 		<string>../../../../GPUImage</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://bitbucket.org/ErikJefferson/iosdev.git</string>
+	<string>https://github.com/ErikJefferson/FilteredPreview</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -39,6 +43,14 @@
 			<string>23D6CFC5-5154-4AE3-ADF2-D8C473631B1D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Dev</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0BE4840B-8876-4A27-97C2-D1B30B4F69DC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FilteredPreview</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

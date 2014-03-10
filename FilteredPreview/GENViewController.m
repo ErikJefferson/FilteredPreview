@@ -25,14 +25,15 @@
     self.videoCamera.horizontallyMirrorFrontFacingCamera = YES;
     self.videoCamera.outputImageOrientation = UIInterfaceOrientationPortrait;
     
-    GPUImageFilter *customFilter = [[GPUImageFilter alloc] initWithFragmentShaderFromFile:@"CustomShader"];
+    //GPUImageFilter *customFilter = [[GPUImageFilter alloc] initWithFragmentShaderFromFile:@"CustomShader"];
     GPUImageView *filteredVideoView = [[GPUImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.bounds.size.width, self.view.bounds.size.height)];
     
     // set our main view to be the GPUImage view
     self.view = filteredVideoView;
     
-    [self.videoCamera addTarget:customFilter];
-    [customFilter addTarget:filteredVideoView];
+    [self.videoCamera addTarget:filteredVideoView];
+    //[self.videoCamera addTarget:customFilter];
+    //[customFilter addTarget:filteredVideoView];
     
     [self.videoCamera startCameraCapture];
 }
